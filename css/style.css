@@ -1,0 +1,130 @@
+
+
+
+/* Start Global Rules */
+
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Righteous&display=swap');
+* {
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Righteous', cursive;
+}
+
+/* End Global Rules */
+
+/* Start Common Rules */
+
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* End Common Rules */
+
+/* Start Header Section */
+
+nav {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px 65px;
+}
+
+nav ul li a {
+    color: #FFF;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #E44D26;
+    overflow: hidden;
+}
+
+section.hero::before {
+    content: "";
+    position: absolute;
+    left: -200px;
+    width: 40%;
+    height: 100vh;
+    background-color: #26AFFF;
+    transform: skewX(-5deg);
+    z-index: 1;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    right: -200px;
+    width: 40%;
+    height: 100vh;
+    background-color: #FFDC00;
+    transform: skewX(-5deg);
+    z-index: 2;
+}
+
+.fab, .fas {
+    font-size: 100px;
+}
+
+.fa-html5 {
+    color: #E44D26;
+}
+
+.fa-css3-alt {
+    color: #0C00F4;
+}
+
+.fa-js {
+    color: #FFDC00;
+}
+
+.fa-code {
+    color: #26AFFF;
+}
+
+.fa-terminal {
+    color: #FFFB42;
+}
+
+.hero-content {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+/* End Header Section */
+
+/* Start About Section */
+/* End About Section */
+
+/* Start Portfolio Section */
+/* End Portfolio Section */
+
+/* Start Services Section */
+/* End Services Section */
+
+/* Start Blog Section */
+/* End Blog Section */
+
+/* Start Contact Section */
+/* End Contact Section */
+
+/* Start Footer Section */
+/* End Footer Section */
