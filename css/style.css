@@ -1,188 +1,31 @@
-
-
-
-/* Start Global Rules */
-
-@import url('https://fonts.googleapis.com/css?family=Teko:300,400,500,600,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400,500,600,700&display=swap');
-
-* {
-    font-family: 'Teko', sans-serif;
-}
-
-/* End Global Rules */
-
-/* Start Common Rules */
-
-ul, ol {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-/* End Common Rules */
-
-/* Start Header Section */
-
-nav {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    z-index: 10;
-}
-
-nav ul {
-    text-align: center;
-}
-
-nav ul li {
-    display: inline-block;
-    padding: 20px 65px;
-}
-
-nav ul li a {
-    color: #FFF;
-    font-size: 25px;
-}
-
-.hero {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-color: #FFDC00;
-    overflow: hidden;
-}
-
-section.hero::before {
-    content: "";
-    position: absolute;
-    left: -200px;
-    width: 40%;
-    height: 100vh;
-    background-color: #253E51;
-    transform: skewX(-5deg);
-    z-index: 1;
-}
-
-.hero::after {
-    content: "";
-    position: absolute;
-    right: -200px;
-    width: 40%;
-    height: 100vh;
-    background-color: #253E51;
-    transform: skewX(-5deg);
-}
-
-.hero .hero-content {
-    width: 100%;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.hero .hero-content h2 {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    background-color: #f00;
-    color: #FFF;
-    letter-spacing: 5px;
-    font-size: 40px;
-    width: 20%;
-    margin: auto;
-    padding: 15px;
-    transform: skewX(15deg);
-}
-
-.hero .hero-content h1 {
-    background-color: #253E51;
-    color: #FFF;
-    letter-spacing: 3px;
-    font-size: 60px;
-    width: 30%;
-    margin: auto;
-    padding: 50px;
-    transform: skewX(-5deg);
-}
-
-.hero .hero-content a {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    background-color: #f00;
-    color: #FFF;
-    display: block;
-    font-size: 20px;
-    width: 10%;
-    margin: 10px auto;
-    padding: 15px;
-    position: absolute;
-    left: 490px;
-    z-index: 20;
-}
-
-.hero .icons {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-end;
-    z-index: 3;
-}
-
-.fab {
-    font-size: 250px;
-
-}
-
-.fas {
-    font-size: 100px;
-}
-
-.fa-html5 {
-    color: #FFDC00;
-}
-
-.fa-css3-alt {
-    color: #253E51;
-}
-
-.fa-js {
-    color: #FFDC00;
-}
-
-.fa-code {
-    color: #26AFFF;
-}
-
-.fa-terminal {
-    color: #FFFB42;
-    position: absolute;
-    z-index: 4;
-    left: 520px;
-}
-
-/* End Header Section */
-
-/* Start About Section */
-/* End About Section */
-
-/* Start Portfolio Section */
-/* End Portfolio Section */
-
-/* Start Services Section */
-/* End Services Section */
-
-/* Start Blog Section */
-/* End Blog Section */
-
-/* Start Contact Section */
-/* End Contact Section */
-
-/* Start Footer Section */
-/* End Footer Section */
+/* Template Name: CodeLap - Responsive Portfolio Template
+   Author: CodeLap
+   Email: codelap@gmail.com
+   Website: http://www.codelap.com/
+   Version: v1.0
+   Updated: 15th August, 2020
+   Created: April 2020
+   File Description: Main Css file of the template
+*/
+/**********************************/
+/*       INDEX                    */
+/*=================================
+ *    01.  Variables              *
+ *    02.  Bootstrap Custom       *
+ *    03.  Components             *
+ *    04.  General                *
+ *    05.  Helper                 *
+ *    06.  Menu                   *
+ *    07.  Home                   *
+ *    08.  About                  *
+ *    09.  Service                *
+ *    10.  Counter                *
+ *    11.  Resume                 *
+ *    12.  C.T.A                  *
+ *    13.  Portfolio              *
+ *    14.  Testi                  *
+ *    15.  Blog                   *
+ *    16.  Contact                *
+ *    17.  Footer                 *
+ *    18.  Switcher               *
+ =================================*/
